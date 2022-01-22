@@ -1,4 +1,4 @@
-def popularidade(data):
+def popularityAnalysis(data):
     crescer = True
     reduzir = True
 
@@ -14,4 +14,4 @@ def popularidade(data):
 
 if __name__ == '__main__':
     nuns = [1, 2, 3, 4, 5]
-    print(popularidade(nuns))
+    print(popularityAnalysis(nuns))
