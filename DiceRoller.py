@@ -1,6 +1,6 @@
 import random
 
-def JogarDado():
+def jogarDado():
     dice_size = int(input("Quantos lados tem seu dado? "))
     dice_rolls = int(input("Quantas vezes que quer joga o dado? "))
     player_name = str(input("Qual seu nome? "))
@@ -19,4 +19,4 @@ def JogarDado():
     print(f"Sua pontuação foi {dice_sum}, {player_name}!")
 
 if __name__== "__main__":
-    JogarDado()
+    jogarDado()
